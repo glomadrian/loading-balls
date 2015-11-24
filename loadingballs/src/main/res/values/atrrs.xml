@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="LoadingBalls">
+    <attr name="balls" format="integer"/>
+    <attr name="movement_cycle_time" format="integer"/>
+    <attr name="size_cycle_time" format="integer"/>
+    <attr name="ball_colors" format="reference"/>
+    <attr name="ball_size" format="dimension"/>
+    <attr name="enable_size_animation" format="boolean"/>
+    <attr name="min_ball_size" format="dimension"/>
+    <attr name="max_ball_size" format="dimension"/>
+    <attr name="path" format="string"/>
+  </declare-styleable>
+</resources>
