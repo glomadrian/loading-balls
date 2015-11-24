@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author Adrián García Lomas
  */
-public class AbstractBallAnimator {
+public abstract class AbstractBallAnimator {
 
   protected List<Ball> balls;
   protected BallAnimatorListener ballAnimatorListener;
@@ -27,6 +27,12 @@ public class AbstractBallAnimator {
   public void setBallPathAnimatorListener(BallAnimatorListener ballAnimatorListener) {
     this.ballAnimatorListener = ballAnimatorListener;
   }
+
+  public abstract void start();
+
+  public abstract void stop();
+
+  public abstract void restart();
 
   public interface BallAnimatorListener {
 

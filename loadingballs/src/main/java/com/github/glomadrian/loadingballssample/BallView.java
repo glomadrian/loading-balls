@@ -25,6 +25,7 @@ public class BallView extends View {
   private float maxBallSize;
   private float ballSize = 20;
   private BallPathAnimator ballPathAnimator;
+  private BallSizeAnimator ballSizeAnimator;
   private int numberOfBalls = 3;
   private int ballSizeAnimationDuration = 400;
   private int ballPathAnimationDuration = 1500;
@@ -81,28 +82,24 @@ public class BallView extends View {
   @Override
   protected void onSizeChanged(int w, int h, int oldw, int oldh) {
     super.onSizeChanged(w, h, oldw, oldh);
-
     Path path = PathFactory.makePath(pathType, new Point(w / 2, h / 2), w, h, (int) maxBallSize);
-
     initBallPathAnimator(path);
-
     if (sizeAnimationEnabled) {
       initBallSizeAnimator(path);
     }
+    start();
   }
 
   private void initBallPathAnimator(Path path) {
     ballPathAnimator = new BallPathAnimator(path, ballPathAnimationDuration);
     ballPathAnimator.setBallPathAnimatorListener(new AnimatorListener());
     ballPathAnimator.addBalls(balls);
-    ballPathAnimator.start();
   }
 
   private void initBallSizeAnimator(Path path) {
-    BallSizeAnimator ballSizeAnimator =
+    ballSizeAnimator =
         new BallSizeAnimator(path, ballSizeAnimationDuration, minBallSize, maxBallSize);
     ballSizeAnimator.addBalls(balls);
-    ballSizeAnimator.start();
   }
 
   private void createBalls() {
@@ -112,6 +109,27 @@ public class BallView extends View {
         k = 0;
       }
       balls.add(new Ball(ballSize, ballColors[k]));
+    }
+  }
+
+  public void start() {
+    ballPathAnimator.start();
+    if (sizeAnimationEnabled) {
+      ballSizeAnimator.start();
+    }
+  }
+
+  public void stop() {
+    ballPathAnimator.stop();
+    if (sizeAnimationEnabled) {
+      ballSizeAnimator.start();
+    }
+  }
+
+  public void restart() {
+    ballPathAnimator.restart();
+    if (sizeAnimationEnabled) {
+      ballSizeAnimator.restart();
     }
   }
 

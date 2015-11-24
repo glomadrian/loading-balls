@@ -50,10 +50,22 @@ public class BallPathAnimator extends AbstractBallAnimator
     valueAnimator.addUpdateListener(this);
   }
 
+  @Override
   public void start() {
     float size = balls.size();
     offset = 1 / size;
     valueAnimator.start();
+  }
+
+  @Override
+  public void stop(){
+    valueAnimator.cancel();
+  }
+
+  @Override
+  public void restart(){
+    stop();
+    start();
   }
 
   @Override

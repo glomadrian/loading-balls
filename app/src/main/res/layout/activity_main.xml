@@ -240,7 +240,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         lib:balls="10"
-        lib:movement_cycle_time="1500"
+        lib:movement_cycle_time="2500"
         lib:ball_colors="@array/colors"
         lib:path="diamond"
         lib:ball_size="4dp"
