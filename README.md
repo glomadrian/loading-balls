@@ -2,13 +2,12 @@ Loading Balls
 -----------------
 
 
-A highly configurable library to do loading progress with animated balls
+A highly configurable library to do loading progress with animated balls for
+Android
 
 
 
 ![Demo Screenshot][1]
-
-
 
 
 How to use
