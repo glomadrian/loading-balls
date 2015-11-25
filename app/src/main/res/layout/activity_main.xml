@@ -14,9 +14,9 @@
       android:paddingTop="@dimen/activity_vertical_margin"
       android:paddingBottom="@dimen/activity_vertical_margin"
       android:orientation="vertical"
-      tools:context="com.github.glomadrian.loadingballssample.MainActivity">
+      tools:context="com.github.glomadrian.loadingballs.MainActivity">
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -30,7 +30,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -41,7 +41,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -55,7 +55,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -66,7 +66,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -81,7 +81,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -93,7 +93,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -105,7 +105,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -120,7 +120,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -135,7 +135,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -150,7 +150,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -162,7 +162,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -175,7 +175,7 @@
         android:layout_gravity="center"
         />
 
-      <com.github.glomadrian.loadingballssample.BallView
+      <com.github.glomadrian.loadingballs.BallView
           android:layout_margin="30dp"
           android:layout_width="100dp"
           android:layout_height="100dp"
@@ -191,7 +191,7 @@
           android:layout_gravity="center"
           />
 
-      <com.github.glomadrian.loadingballssample.BallView
+      <com.github.glomadrian.loadingballs.BallView
           android:layout_margin="30dp"
           android:layout_width="100dp"
           android:layout_height="100dp"
@@ -207,7 +207,7 @@
           android:layout_gravity="center"
           />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
           android:layout_margin="30dp"
           android:layout_width="100dp"
           android:layout_height="100dp"
@@ -223,7 +223,7 @@
           android:layout_gravity="center"
           />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -235,7 +235,7 @@
         android:layout_gravity="center"
         />
 
-    <com.github.glomadrian.loadingballssample.BallView
+    <com.github.glomadrian.loadingballs.BallView
         android:layout_margin="30dp"
         android:layout_width="100dp"
         android:layout_height="100dp"

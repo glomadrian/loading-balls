@@ -1,13 +1,13 @@
-package com.github.glomadrian.loadingballssample.factory;
+package com.github.glomadrian.loadingballs.factory;
 
 import android.graphics.Path;
 import android.graphics.Point;
-import com.github.glomadrian.loadingballssample.factory.path.Circle;
-import com.github.glomadrian.loadingballssample.factory.path.Diamond;
-import com.github.glomadrian.loadingballssample.factory.path.Infinite;
-import com.github.glomadrian.loadingballssample.factory.path.Square;
-import com.github.glomadrian.loadingballssample.factory.path.Star;
-import com.github.glomadrian.loadingballssample.factory.path.Triangle;
+import com.github.glomadrian.loadingballs.factory.path.Circle;
+import com.github.glomadrian.loadingballs.factory.path.Diamond;
+import com.github.glomadrian.loadingballs.factory.path.Infinite;
+import com.github.glomadrian.loadingballs.factory.path.Square;
+import com.github.glomadrian.loadingballs.factory.path.Star;
+import com.github.glomadrian.loadingballs.factory.path.Triangle;
 
 /**
  * @author Adrián García Lomas

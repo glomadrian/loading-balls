@@ -1,4 +1,4 @@
-package com.github.glomadrian.loadingballssample;
+package com.github.glomadrian.loadingballs;
 
 import org.junit.Test;
 

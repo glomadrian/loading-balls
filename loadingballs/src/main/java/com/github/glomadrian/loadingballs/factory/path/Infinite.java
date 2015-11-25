@@ -1,4 +1,4 @@
-package com.github.glomadrian.loadingballssample.factory.path;
+package com.github.glomadrian.loadingballs.factory.path;
 
 import android.graphics.Path;
 import android.graphics.Point;

@@ -1,4 +1,4 @@
-package com.github.glomadrian.loadingballssample;
+package com.github.glomadrian.loadingballs;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,11 +7,10 @@ import android.graphics.Path;
 import android.graphics.Point;
 import android.util.AttributeSet;
 import android.view.View;
-import com.github.glomadrian.loadingballs.R;
-import com.github.glomadrian.loadingballssample.animator.AbstractBallAnimator;
-import com.github.glomadrian.loadingballssample.animator.BallPathAnimator;
-import com.github.glomadrian.loadingballssample.animator.BallSizeAnimator;
-import com.github.glomadrian.loadingballssample.factory.PathFactory;
+import com.github.glomadrian.loadingballs.animator.AbstractBallAnimator;
+import com.github.glomadrian.loadingballs.animator.BallPathAnimator;
+import com.github.glomadrian.loadingballs.animator.BallSizeAnimator;
+import com.github.glomadrian.loadingballs.factory.PathFactory;
 import java.util.ArrayList;
 import java.util.List;
 

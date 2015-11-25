@@ -1,9 +1,9 @@
-package com.github.glomadrian.loadingballssample.animator;
+package com.github.glomadrian.loadingballs.animator;
 
 import android.animation.ValueAnimator;
 import android.graphics.Path;
 import android.view.animation.AccelerateDecelerateInterpolator;
-import com.github.glomadrian.loadingballssample.Ball;
+import com.github.glomadrian.loadingballs.Ball;
 import java.util.ArrayList;
 import java.util.List;
 

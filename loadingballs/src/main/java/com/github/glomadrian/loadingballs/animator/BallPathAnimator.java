@@ -1,11 +1,11 @@
-package com.github.glomadrian.loadingballssample.animator;
+package com.github.glomadrian.loadingballs.animator;
 
 import android.animation.ValueAnimator;
 import android.graphics.Path;
 import android.graphics.PathMeasure;
 import android.view.animation.BaseInterpolator;
 import android.view.animation.LinearInterpolator;
-import com.github.glomadrian.loadingballssample.Ball;
+import com.github.glomadrian.loadingballs.Ball;
 
 /**
  * Given a Path object trace the points and use value animator
