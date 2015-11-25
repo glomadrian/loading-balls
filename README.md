@@ -1,15 +1,13 @@
 Loading Balls
 -----------------
-[![Download](https://api.bintray.com/packages/glomadrian/maven/MaterialAnimatedSwitch/images/download.svg) ](https://bintray.com/glomadrian/maven/MaterialAnimatedSwitch/_latestVersion)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Material%20Animated%20Switch-green.svg?style=flat)](https://android-arsenal.com/details/1/1985)
+
 
 A highly configurable library to do loading progress with animated balls
 
 
-//TODO Some samples here
+
 ![Demo Screenshot][1]
 
-![Demo Screenshot][2]
 
 
 
@@ -77,7 +75,8 @@ Sample colors array
 
 #### Default Infinite shape
 
-//TODO GIF
+![Sample][1]
+
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -97,7 +96,7 @@ Sample colors array
 
 #### Infinite shape without size animation
 
-//TODO GIF
+![Sample][2]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -113,7 +112,7 @@ Sample colors array
 ```
 #### Infinite shape with 5 balls
 
-//TODO GIF
+![Sample][3]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -133,7 +132,7 @@ Sample colors array
 
 #### Triangle shape with 3 balls and size animation
 
-//TODO GIF
+![Sample][4]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -154,7 +153,7 @@ Sample colors array
 
 #### Triangle shape with 2 balls
 
-//TODO GIF
+![Sample][5]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -172,7 +171,7 @@ Sample colors array
 
 #### Square shape with 3 balls
 
-//TODO GIF
+![Sample][6]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -190,7 +189,7 @@ Sample colors array
 
 #### Square shape with 5 balls and size animation
 
-//TODO GIF
+![Sample][7]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -211,7 +210,7 @@ Sample colors array
 
 #### Circle shape with 3 balls and size animation
 
-//TODO GIF
+![Sample][8]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -231,7 +230,7 @@ Sample colors array
 ```
 #### Circle shape with 2 balls without size animation
 
-//TODO GIF
+![Sample][9]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -248,7 +247,7 @@ Sample colors array
 ```
 #### Star shape with 10 balls without size animation
 
-//TODO GIF
+![Sample][10]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -266,8 +265,7 @@ Sample colors array
 ```
 #### Star shape with 5 balls and size animation
 
-//TODO GIF
-
+![Sample][11]
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
          android:layout_margin="30dp"
@@ -287,7 +285,7 @@ Sample colors array
 ```
 #### Star shape with 3 balls and size animation
 
-//TODO GIF
+![Sample][12]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -308,7 +306,7 @@ Sample colors array
 ```
 #### Diamond shape with 5 balls without size animation
 
-//TODO GIF
+![Sample][14]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -325,7 +323,7 @@ Sample colors array
 ```
 #### Diamond shape with 4 balls and size animation
 
-//TODO GIF
+![Sample][13]
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
@@ -346,7 +344,8 @@ Sample colors array
 ```
 #### Diamond shape with 10 balls without size animation
 
-//TODO GIF
+![Sample][15]
+
 
 ``` xml
 <com.github.glomadrian.loadingballs.BallView
