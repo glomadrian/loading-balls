@@ -1,5 +1,6 @@
 Loading Balls
 -----------------
+[![Download](https://api.bintray.com/packages/glomadrian/maven/MaterialCodeInput/images/download.svg) ](https://bintray.com/glomadrian/maven/loading-balls/_latestVersion)
 
 
 A highly configurable library to do loading progress with animated balls for
@@ -69,6 +70,24 @@ color balls
 </resources>
 ```
 Sample colors array
+
+For Gradle
+---------------------
+
+Add repository
+
+```java
+repositories {
+  maven {
+    url "http://dl.bintray.com/glomadrian/maven"
+  }
+}
+```
+Add dependency
+```java
+  compile 'com.github.glomadrian:loading-balls:1.1@aar'
+```
+
 
 ### Some Samples
 
