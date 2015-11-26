@@ -21,12 +21,13 @@ How to use
 lib:path="triangle"
 ```
 The shape of the movement, available: 
-	- infinite
-	- square
-	- triangle
-	- circle
-	- diamond
-	- star
+
+	*  infinite
+	*  square
+	*  triangle
+	*  circle
+	*  diamond
+	*  star
 
 
 ``` xml
