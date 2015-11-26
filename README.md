@@ -18,6 +18,18 @@ How to use
 
 
 ``` xml
+lib:path="triangle"
+```
+The shape of the movement, available: 
+	* infinite
+	* square
+	* triangle
+	* circle
+	* diamond
+	* star
+
+
+``` xml
 lib:balls="3"
 ```
 Number of balls used in the animation
@@ -25,7 +37,7 @@ Number of balls used in the animation
 ``` xml
 lib:movement_cycle_time="1500"
 ```
-The time it takes for the ball to do a complete cicle
+The time which the ball takes to do a complete cicle
 
 ``` xml
 lib:enable_size_animation="true"
@@ -52,7 +64,7 @@ To use with enable_size_animation="true", set the min and the max ball size
 ``` xml
 lib:ball_colors="@array/colors"
 ```
-Array of colors for the balls, is there are more balls than colors then repeat
+Array of colors for the balls, if there are more balls than colors then repeat
 color balls
 
 ``` xml
