@@ -98,7 +98,7 @@ repositories {
 ```
 Add dependency
 ```java
-  compile 'com.github.glomadrian:loading-balls:1.1@aar'
+  compile 'com.github.glomadrian:loadingballs:1.1@aar'
 ```
 
 
